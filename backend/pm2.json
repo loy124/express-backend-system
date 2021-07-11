@@ -1,0 +1,16 @@
+{
+    "name": "your-app-name",
+    "script": "src/index.js",
+    "instances": "max",
+    "exec_mode": "cluster",
+    "listen_timeout": 50000,
+    "wait_ready": true,
+    "kill_timeout": 5000,
+    "error_file":"./logs/pm2/error.log",
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "env_production" : {
+      "NODE_ENV": "production"
+    }
+  }

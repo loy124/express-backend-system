@@ -1,0 +1,27 @@
+{
+  "name": "learn-pm2",
+  "version": "1.0.0",
+  "description": "\"# learn-pm2\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loy124/learn-pm2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loy124/learn-pm2/issues"
+  },
+  "homepage": "https://github.com/loy124/learn-pm2#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pm2": "^5.1.0",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5"
+  }
+}
