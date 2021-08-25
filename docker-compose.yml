@@ -6,7 +6,7 @@ services:
         restart: unless-stopped
         volumes:
             - ./proxy/nginx.conf:/etc/nginx/nginx.conf
-            - ./data/proxy':/var/log/nginx/      
+            - ./data/proxy:/var/log/nginx/      
         ports:
             - 80:80
 
