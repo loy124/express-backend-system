@@ -1,7 +1,7 @@
 FROM keymetrics/pm2:latest-alpine
 RUN ls
 # Bundle APP files
-
+ENV TZ=Asia/Seoul
 WORKDIR /usr/src/app
 COPY ./backend/src src/
 COPY ./backend/package.json .
